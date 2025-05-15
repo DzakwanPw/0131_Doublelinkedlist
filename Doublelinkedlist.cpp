@@ -107,4 +107,6 @@ hapus()
 
             //
             if (current->next != NULL)
+                current->next->prev = current->prev;
+        }
 
