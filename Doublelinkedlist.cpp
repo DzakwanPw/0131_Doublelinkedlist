@@ -110,3 +110,6 @@ hapus()
                 current->next->prev = current->prev;
         }
 
+        // Step 5: Delet the node
+        delete current;
+
