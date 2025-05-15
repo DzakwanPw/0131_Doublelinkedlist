@@ -2,10 +2,6 @@
 #include <string>
 using namespace std;
 
-// nama repository
-// 4NIMBLKG_Doublelinkedlist
-// minimal commit 14
-
 class Node
 {
 public:
@@ -104,7 +100,5 @@ hapus()
         {
             START->prev = NULL; //
         }
-    }
-}
-}
-;
+        else
+
