@@ -101,4 +101,7 @@ hapus()
             START->prev = NULL; //
         }
         else
+        {
+            //
+            current->prev->next = current->next;
 
