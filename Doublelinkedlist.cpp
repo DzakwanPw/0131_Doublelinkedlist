@@ -97,6 +97,14 @@ hapus()
     cin >> rollNo;
 
     // Step 2: if node is at the begining
+    if (current == START)
+    {
+        START = current->next;
+        if (START != NULL)
+        {
+            START->prev = NULL; //
+        }
+    }
 }
 }
 ;
