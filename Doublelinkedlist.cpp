@@ -17,5 +17,22 @@ public:
 class DoubleLinkedList
 {
 private:
-Node *START;
+    Node *START;
+
+public:
+    DoubleLinkedList()
+    {
+        START = NULL;
+    }
+
+    void adNode()
+    {
+        int nim;
+        cout << "\"
+    }
 }
+
+
+
+
+    
