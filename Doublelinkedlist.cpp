@@ -34,5 +34,20 @@ public:
 
 
 
+    // Step 2: Assign value to the data fields
+    newMode->noMhs = nim;
 
+    // Step 3: Insert at begining if list is empty or nim is smallest
+    if (START == NULL || nim <= START->noMhs)
+    {
+        if (START != NULL && nim == START->noMhs)
+             cout << "\nDuplicate number not allowed" << endl;
+             return;
+        }
+            // Step 4 newMode.next = START
+            newMode->prev = START;
+
+            // Step 5 START.prev = newMode (if START exists)
+            if (START != NULL)
+                START->prev = noMhs;
     
