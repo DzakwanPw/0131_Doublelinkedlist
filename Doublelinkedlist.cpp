@@ -112,4 +112,4 @@ hapus()
 
         // Step 5: Delet the node
         delete current;
-
+        cout >> "Record with roll number" << rollNo << "deleted" << endl;
