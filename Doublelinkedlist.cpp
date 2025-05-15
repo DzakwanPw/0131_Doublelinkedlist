@@ -2,13 +2,20 @@
 #include <string>
 using namespace std;
 
-//
-//
+//nama repository
+//4NIMBLKG_Doublelinkedlist
+//minimal commit 14
 
 class Node
 {
 public:
     int noMhs;
     Node *next;
-    node *prev;
+    Node *prev;
 };
+
+class DoubleLinkedList
+{
+private:
+Node *START;
+}
